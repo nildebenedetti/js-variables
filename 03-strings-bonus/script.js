@@ -14,6 +14,13 @@ console.log(cityIndex); // Output: 4
 const citySubstring = city.split(" ")[1];
 console.log(citySubstring); // Output: "York"
 
+// se fosse pezzo di una parola con lo split non si riesce, ma IN js 
+// substring 
+
+const citySubstring1 = city.substring(4, 8);
+console.log(citySubstring1);
+
+
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
 const cityReplaced = city.replace('York', 'Delhi');

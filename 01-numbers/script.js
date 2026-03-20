@@ -30,3 +30,7 @@ console.log(sum); // Output: 56
 // 6. Imposta questa variabile come somma di numOne, numTwo, numThree diviso numOne
 const numBytes = (Number(numOne) + Number(numTwo) + Number(numThree)) / Number(numOne);
 console.log(numBytes); // Output: 7
+
+
+// in genere la sintassi Number(...) si usa a monte per assicurarsi che un dato valore entri 
+// in modo corretto, quindi in quessto caso non serviva
