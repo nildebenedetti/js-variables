@@ -6,7 +6,7 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = city.indexOf("Y")
+const cityIndex = city.indexOf("Y");
 console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
